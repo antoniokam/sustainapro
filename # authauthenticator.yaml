@@ -1,0 +1,23 @@
+# auth/authenticator.yaml
+credentials:
+  usernames:
+    admin:
+      email: admin@cmservice.it
+      name: Amministratore Sistema
+      password: "$2b$12$EixZaYVK1fsbw1ZfbX3OXe.RJKY8Lo3aytuX8xF9oZ4bF4xZaYVK1"  # password: admin123
+      role: admin
+    mario.rossi:
+      email: mario@cmservice.it
+      name: Mario Rossi
+      password: "$2b$12$WciP/7eJ7g3tR7f8K9lMNOvW3xY4zZ5aB6cD7eF8gH9iJ0kL1mN2oP"  # password: mario2025
+      role: user
+    laura.bianchi:
+      email: laura@cmservice.it
+      name: Laura Bianchi
+      password: "$2b$12$XyZabCDEfghIJKlmnoPQRS.tuvWXYZ1234567890abcdefghi"  # password: laura2025
+      role: user
+
+cookie:
+  name: sustainapro_cookie
+  key: random_signature_key_2025
+  expiry_days: 30
