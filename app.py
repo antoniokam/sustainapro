@@ -1,4 +1,4 @@
-# main.py
+# app.py
 import streamlit as st
 
 st.set_page_config(page_title="SustainaPro 2025", page_icon="leaf", layout="wide")
@@ -13,3 +13,4 @@ else:
     st.success(f"Benvenuto, {st.session_state['name']}!")
 
     st.write("Usa il menu a sinistra per navigare tra le sezioni.")
+
