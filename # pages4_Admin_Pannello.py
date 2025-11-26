@@ -1,4 +1,4 @@
-# pages/4_Admin_Pannello.py
+pages/4_Admin_Pannello.py
 import streamlit as st
 import yaml
 import bcrypt
@@ -55,4 +55,5 @@ if st.button("Elimina utente"):
     del config['credentials']['usernames'][utente_da_eliminare]
     save_config(config)
     st.success(f"Utente {utente_da_eliminare} eliminato")
+
     st.rerun()
