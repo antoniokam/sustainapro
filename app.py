@@ -13,5 +13,3 @@ else:
     st.success(f"Benvenuto, {st.session_state['name']}!")
 
     st.write("Usa il menu a sinistra per navigare tra le sezioni.")
-
-force refresh
