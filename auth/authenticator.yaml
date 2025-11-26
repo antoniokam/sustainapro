@@ -1,0 +1,27 @@
+credentials:
+  usernames:
+    admin:
+      email: a.canonico@cmservicesrl.it
+      name: Amministratore Sistema
+      password: "$2b$12$EixZaYVK1fsbw1ZfbX3OXe.RJKY8Lo3aytuX8xF9oZ4bF4xZaYVK1"  # admin123
+      role: admin
+    admin2:
+      email: t.voiglio@cmservicesrl.it
+      name: Tatiana Voiglio Amministratore
+      password: "$2b$12$EixZaYVK1fsbw1ZfbX3OXe.RJKY8Lo3aytuX8xF9oZ4bF4xZaYVK1"  # password: Tatvoi2025
+      role: admin
+    antonio.canonico:
+      email: a.canonico@cmservicesrl.it
+      name: Antonio Canonico
+      password: "$2b$12$WciP/7eJ7g3tR7f8K9lMNOvW3xY4zZ5aB6cD7eF8gH9iJ0kL1mN2oP"  # Antcan2025
+      role: user
+    franco.sategna:
+      email: f.sategna@cmservicesrl.it
+      name: Franco Sategna
+      password: "$2b$12$WciP/7eJ7g3tR7f8K9lMNOvW3xY4zZ5aB6cD7eF8gH9iJ0kL1mN2oP"  # Frasat2025
+      role: user
+
+cookie:
+  name: sustainapro_cookie
+  key: random_signature_key_2025
+  expiry_days: 30
