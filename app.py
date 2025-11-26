@@ -11,4 +11,7 @@ if 'authentication_status' not in st.session_state or not st.session_state["auth
     st.info("Effettua il login dalla pagina laterale →")
 else:
     st.success(f"Benvenuto, {st.session_state['name']}!")
+
     st.write("Usa il menu a sinistra per navigare tra le sezioni.")
+
+force refresh
